@@ -15,8 +15,11 @@
 ### Features
 - [todo] Landing Page
 - [todo] Articles
-- [todo] Social Media Links
-
+- [x] Social Media Links
+- [todo] skillmeters
+- [todo] portfolio
+- [on-going] recent work
+- [on-going] current project
 
 ### Improvement
 - [todo] built system (using gulp or grunt)
