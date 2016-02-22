@@ -35,7 +35,18 @@
 
     <body>
 
+      <!-- preloader -->
+      <div id="preloader">
+        <div class="txt">
+          <p class="txt-perc"><span class="fa fa-spin fa-spinner"></span> Please Wait</p>
+          <div class="progress"><span></span></div>
+        </div>
+      </div>
+      <!--  end preloader -->
+
+
       <div class="site-wrapper">
+        <div class="bcg"></div>
 
         <div class="site-wrapper-inner">
 
@@ -62,12 +73,12 @@
                 <a  target="_blank" href="https://github.com/puterakahfi" class="btn btn-md btn-default"><span class="fa fa-github"></span></a>
                 <a target="_blank" href="https://id.linkedin.com/in/putera-kahfi-52663b48" class="btn btn-md btn-default"><span class="fa fa-linkedin"></span></a>
                 <a target="_blank" href="http://stackoverflow.com/users/5960789/putera-kahfi" class="btn btn-md btn-default"><span class="fa  fa-stack-overflow"></span></a>
-          <a target="_blank" href="https://id.pinterest.com/puterakahfi" class="btn btn-md btn-default"><span class="fa  fa-pinterest"></span></a>
+                <a target="_blank" href="https://id.pinterest.com/puterakahfi" class="btn btn-md btn-default"><span class="fa  fa-pinterest"></span></a>
 
               </p>
             </div>
 
-       
+
 
           </div>
 
@@ -79,11 +90,19 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
 
     <script src="assets/js/custom.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script>
+    $(function(){
+      custom = new Custom();
+      custom.init();
+    });
+    </script>
   </body>
   </html>

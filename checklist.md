@@ -22,4 +22,5 @@
 - [on-going] current project
 
 ### Improvement
+- [x] added preloader page
 - [todo] built system (using gulp or grunt)
