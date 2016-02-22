@@ -1,13 +1,18 @@
 ## checklist
 
 ### Preparations
-[x] init bootstrap page
-[x] init bower file
+- [x] init bootstrap page
+- [x] init bower file
+
+
+### libraries and assets
+- [x] bootstrap
+- [] angular
 
 ### Features
-[] Landing Page
-[] Articles
-[] Social Media Links
+- [] Landing Page
+- [] Articles
+- [] Social Media Links
 
 
 ### Improvement
