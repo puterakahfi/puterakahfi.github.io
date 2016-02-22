@@ -1,4 +1,4 @@
-## checklist
+# DEVELOPMENT CHECKLIST
 
 ### Preparations
 - [x] init bootstrap page
