@@ -23,4 +23,5 @@
 
 ### Improvement
 - [x] added preloader page
+- [todo] SEO 
 - [todo] built system (using gulp or grunt)
