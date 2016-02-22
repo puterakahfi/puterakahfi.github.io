@@ -4,16 +4,19 @@
 - [x] init bootstrap page
 - [x] init bower file
 
+### Development Steps
+- [on-going] build static html template
+- [todo] added angularjs
 
 ### libraries and assets
 - [x] bootstrap
 - [] angular
 
 ### Features
-- [] Landing Page
-- [] Articles
-- [] Social Media Links
+- [todo] Landing Page
+- [todo] Articles
+- [todo] Social Media Links
 
 
 ### Improvement
-- [] built system (using gulp or grunt)
+- [todo] built system (using gulp or grunt)
