@@ -4,6 +4,9 @@
 - [x] init bootstrap page
 - [x] init bower file
 
+### References
+- 
+
 ### Development Steps
 - [on-going] build static html template
 - [todo] added angularjs
