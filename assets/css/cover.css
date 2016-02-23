@@ -259,3 +259,24 @@ body {
     background: url(../img/img_mountains04.jpg) no-repeat center center;
     background-size: cover;
     opacity: 0.7; }
+
+
+.btn .pinterest{
+  background: #BC1D23;
+}
+
+  /** SOCIAL ICONS **/
+  .fa-facebook{color: #4965A0;}
+  .fa-github{color:#333333;}
+  .fa-linkedin{color:#1E87BE;}
+  .fa-stack-overflow{color:#F48024;}
+  .fa-pinterest{color:#BC1D23;}
+
+
+  /** particles **/
+  canvas.sketch{
+    position: absolute;
+    background: red;
+    width: 100%;
+    top:0px;
+  }
