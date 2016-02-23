@@ -5,7 +5,9 @@
 - [x] init bower file
 
 ### References
-- 
+- [nrly](http://nrly.co)
+- [wadegarrett](http://wadegarrett.com)
+
 
 ### Development Steps
 - [on-going] build static html template
@@ -13,7 +15,7 @@
 
 ### libraries and assets
 - [x] bootstrap
-- [] angular
+- [todo] angular
 
 ### Features
 - [todo] Landing Page
@@ -23,6 +25,7 @@
 - [todo] portfolio
 - [on-going] recent work
 - [on-going] current project
+- [todo] theming support
 
 ### Improvement
 - [x] added preloader page
