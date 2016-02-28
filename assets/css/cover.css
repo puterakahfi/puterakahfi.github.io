@@ -194,10 +194,11 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 #preloader .txt-perc {
-    font-size: 35px;
+    font-size: 4em;
     font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
     opacity: 1;
     margin: 0 0 6px 0;
+    margin-top: 45px;
     max-width: 400px;
     text-align: center; }
 #preloader .progress {
