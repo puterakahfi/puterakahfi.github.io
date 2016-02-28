@@ -102,7 +102,7 @@ body {
     float: left;
   }
   .masthead-nav {
-    float: right;
+    //float: right;
   }
 }
 
@@ -120,8 +120,8 @@ body {
 }
 
 .cover-heading{
-  font-size: 5em;
-  letter-spacing: -5px;
+  font-size: 3.5em;
+  letter-spacing: -3px;
 }
 
 
