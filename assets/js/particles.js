@@ -20,7 +20,7 @@ particlesJS("particles-js", {
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
+        "src": "http://www.blog.jonnycornwell.com/wp-content/uploads/2012/07/Smoke10.png",
         "width": 100,
         "height": 100
       }

@@ -276,7 +276,7 @@ body {
 
 #social-navs{
     position:relative;
-    z-index: 222;
+    z-index: 3;
 }
 
 /** Social navs buttons **/
