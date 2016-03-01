@@ -267,11 +267,11 @@ body {
 }
 
 /** SOCIAL ICONS **/
-.fa-facebook,.fa-facebook-square{color: #47639E;}
-.fa-github{color:#FFFFFF;}
-.fa-linkedin{color:#1E87BE;}
-.fa-stack-overflow{color:#F48024;}
-.fa-pinterest{color:#BC1D23;}
+.fa-facebook:hover,.fa-facebook-square:hover{color: #47639E;}
+.fa-github:hover{color:#BFBFBF;}
+.fa-linkedin:hover{color:#1E87BE;}
+.fa-stack-overflow:hover{color:#F48024;}
+.fa-pinterest:hover{color:#BC1D23;}
 
 
 #social-navs{
