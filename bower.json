@@ -1,0 +1,23 @@
+{
+  "name": "puterakahfi.github.io",
+  "homepage": "https://github.com/puterakahfi/puterakahfi.github.io",
+  "authors": [
+    "puterakahfi <puterakahfi@gmail.com>"
+  ],
+  "description": "puterakahfi landing page assets",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "^4.5.0",
+    "angular": "angularjs#^1.5.0"
+  }
+}
