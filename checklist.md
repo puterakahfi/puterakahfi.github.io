@@ -28,6 +28,7 @@
 - [on-going] current project
 - [todo] theming support
 - [todo] add vertical navigations
+- [x] integration with jekyll for blog system
 
 ### Improvement
 - [x] add preloader page

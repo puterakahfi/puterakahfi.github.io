@@ -1,6 +1,0 @@
----
-published: true
-title: yuhu
-layout: post
----
-testing
