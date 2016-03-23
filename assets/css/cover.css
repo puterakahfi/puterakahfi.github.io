@@ -114,7 +114,10 @@ body {
  */
 
 .cover {
+    
     padding: 0 20px;
+    z-index: 3;
+    position: relative;
 }
 .cover .btn-lg {
     padding: 10px 20px;
@@ -195,10 +198,11 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 #preloader .txt-perc {
-    font-size: 35px;
+    font-size: 4em;
     font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
     opacity: 1;
     margin: 0 0 6px 0;
+    margin-top: 45px;
     max-width: 400px;
     text-align: center; }
 #preloader .progress {
@@ -394,4 +398,8 @@ hr.small-hr {
     display: inline-block;
     margin-bottom: 20px;
 
+}
+
+#particles-js.under-construction{
+    background: url("https://pixabay.com/get/e83db10a2cf01c22d9584518a33219c8b66ae3d11cb6144691f0c078/sunset-180544_1920.jpg") top left;
 }
