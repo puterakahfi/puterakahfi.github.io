@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+    <body>
+
+
+
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div class="txt">
+                <div id="loader"></div>
+                <p class="txt-perc">Please Wait</p>
+            </div>
+        </div>
+        <!--  end preloader -->
+
+        <div id="particles-js" class="under-construction"></div>
+
+
+        <div class="site-wrapper">
+
+
+            <div class="site-wrapper-inner">
+
+                <div class="cover-container">
+
+
+                    <div class="inner cover">
+                        <h1 class="cover-heading">UPS! SORRY</h1>
+                        <p class="lead"> THIS PAGE IS  <b>UNDER CONSTRUCTION</b> </p>
+
+                        <p class="lead" id="social-navs">
+                            {% if site.author.facebook_username %}
+                            <a target="_blank"  href="https://www.facebook.com/codejunior" class="btn " data-toggle="tooltip" data-placement="top" title="Facebook" ><span class="fa fa-2x fa-facebook-square"></span></a>
+                            {% endif %}
+
+                            <a  target="_blank" href="https://github.com/puterakahfi" class="btn" data-toggle="tooltip" data-placement="top" title="Github"><span class="fa fa-2x fa-github"></span></a>
+                            <a target="_blank" href="https://id.linkedin.com/in/putera-kahfi-52663b48" class="btn" data-toggle="tooltip" data-placement="top" title="Linkedin"><span class="fa fa-2x fa-linkedin"></span></a>
+                            <a target="_blank" href="http://stackoverflow.com/users/5960789/putera-kahfi" class="btn " data-toggle="tooltip" data-placement="top" title="Stackoverflow"><span class="fa fa-2x fa-stack-overflow"  ></span></a>
+                            <a target="_blank" href="https://id.pinterest.com/puterakahfi" class="btn pinterest " data-toggle="tooltip" data-placement="top" title="Pinterest"><span class="fa fa-2x fa-pinterest"></span></a>
+                            <a target="_blank" href="https://dribbble.com/codejunior" class="btn dribble " data-toggle="tooltip" data-placement="top" title="Dribble"><span class="fa fa-2x fa-dribbble"></span></a>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+       {% include scripts.html %}
+
+
+        <script>
+            $(function () {
+                custom = new Custom();
+                custom.init();
+
+
+            });
+        </script>
+    </body>
+</html>
