@@ -22,7 +22,7 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
   background-color:#002B36 ;
-  background: url("https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb") no-repeat top center;
+  background: url("https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb") no-repeat bottom center;
 }
 
 
