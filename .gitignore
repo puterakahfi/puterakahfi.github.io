@@ -1,6 +1,8 @@
-/nbproject/*
-/node_modules/*
-_site
-.sass-cache
-.jekyll-metadata
-
+*.log
+.cache
+.DS_Store
+src/.temp
+node_modules
+dist
+.env
+.env.*
