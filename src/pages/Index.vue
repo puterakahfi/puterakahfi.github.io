@@ -1,42 +1,55 @@
 <template>
-  <Layout>
-    <b-container>
-      <b-row class="mt-5">
-        <b-col>
-          <b-img
-            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/code_review_l1q9.svg"
-            fluid
-            alt="Fluid image"
-          ></b-img>
-        </b-col>
-        <b-col class="mt-5 pt-3">
-          <h1>Under Construction</h1>
-        
-        </b-col>
-      </b-row>
-    </b-container>
+  <Layout :show-logo="false">
+    <!-- Author intro -->
+    <Author :show-title="true" />
+    
+    <!-- List posts -->
+    <div class="posts">
+      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+    </div>
+
   </Layout>
 </template>
 
+<page-query>
+{
+  posts: allPost {
+    edges {
+      node {
+        id
+        title
+        path
+        tags {
+          id
+          title
+          path
+        }
+        date (format: "D. MMMM YYYY")
+        timeToRead
+        description
+        coverImage (width: 770, height: 380, blur: 10)
+        ...on Post {
+            id
+            title
+            path
+        }
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
-import Layout from "~/layouts/Blank.vue";
+import Author from '~/components/Author.vue'
+import PostCard from '~/components/PostCard.vue'
+
 export default {
   components: {
-    Layout
+    Author,
+    PostCard
   },
   metaInfo: {
-    title: "Under Construction!"
+    title: 'Hello, world!'
   }
-};
+}
 </script>
-
-<style lang="scss">
-h1 {
-  font-weight: bold;
-  font-size: 4rem;
-  color: #3f3d56;
-}
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
