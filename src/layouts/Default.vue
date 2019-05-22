@@ -1,13 +1,14 @@
 <template>
   <div id="app">
+    <Navbar/>
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <Logo v-if="showLogo"/>
       </div>
-      
-      <div class="header__right">        
-        <ToggleTheme />
+
+      <div class="header__right">
+        <ToggleTheme/>switch theme
       </div>
     </header>
 
@@ -16,16 +17,20 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
+      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
+      <span class="footer__links">
+        Powered by
+        <a href="//gridsome.org">Gridsome</a>
+      </span>
     </footer>
-
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import ToggleTheme from '~/components/ToggleTheme.vue'
+import Logo from "~/components/Logo.vue";
+import Navbar from "~/components/Navbar.vue";
+
+import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
@@ -33,9 +38,10 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    Navbar
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -45,7 +51,7 @@ export default {
   align-items: center;
   min-height: var(--header-height);
   padding: 0 calc(var(--space) / 2);
-  top:0;
+  top: 0;
   z-index: 10;
 
   &__left,
@@ -72,10 +78,10 @@ export default {
   justify-content: center;
   padding: calc(var(--space) / 2);
   text-align: center;
-  font-size: .8em;
+  font-size: 0.8em;
 
   > span {
-    margin: 0 .35em;
+    margin: 0 0.35em;
   }
 
   a {

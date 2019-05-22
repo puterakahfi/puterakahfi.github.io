@@ -1,24 +1,24 @@
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import BootstrapVue from "bootstrap-vue";
+import Buefy from "buefy";
 
 
 // Import stisla css
-import '~/assets/stisla/css/style.min.css'
 // Import main css
-import '~/assets/style/index.scss'
-
-
+import "~/assets/style/index.scss";
+import "buefy/dist/buefy.css";
+import 'bulma-helpers/css/bulma-helpers.min.css'
 
 
 // Import default layout so we don't need to import it to every page
-import DefaultLayout from '~/layouts/Default.vue'
-
-
+import DefaultLayout from "~/layouts/Default.vue";
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
-export default function (Vue, { router, head, isClient }) {
-  
+export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
-  Vue.use(BootstrapVue)
+  Vue.component("Layout", DefaultLayout);
+  Vue.use(BootstrapVue);
+
+  Vue.use(Buefy, {
+    defaultIconPack: "fa"
+  });
 }
