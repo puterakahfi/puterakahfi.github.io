@@ -8,7 +8,7 @@ cache:
 
 branches:
   only:
-    - master
+    - 1.0
 
 install:
   - yarn install
@@ -23,4 +23,4 @@ deploy:
   github-token: $GITHUB_ACCESS_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
   target-branch: master
   on:
-    branch: master
+    branch: 1.0
