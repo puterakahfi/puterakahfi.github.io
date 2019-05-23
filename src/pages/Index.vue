@@ -1,12 +1,15 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout :show-logo="false" :show-header="false" class="container">
     <!-- Author intro -->
-    
     <!-- List posts -->
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+    <div class="columns is-multiline is-centered">
+      <PostCard
+        class=""
+        v-for="edge in $page.posts.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
-
   </Layout>
 </template>
 
@@ -39,8 +42,8 @@
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import Author from "~/components/Author.vue";
+import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
@@ -48,7 +51,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: "Welcome"
   }
-}
+};
 </script>

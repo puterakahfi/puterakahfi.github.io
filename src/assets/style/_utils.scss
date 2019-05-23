@@ -5,3 +5,8 @@
 .space-bottom {
 	margin-bottom: var(--space);
 }
+
+.is-shadowless
+{
+	box-shadow: none !important;
+}

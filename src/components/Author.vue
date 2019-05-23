@@ -13,8 +13,6 @@
 
     <p class="author__intro">Web Developer</p>
 
-    <a class="btn btn-link btn-lg mr-1" href="//puterakahfi.github.io/nuxt-cv" target="_blank">CV</a>
-    <a class="btn btn-link btn-lg" href="//github.com/puterakahfi" target="_blank">GitHub</a>
   </div>
 </template>
 
