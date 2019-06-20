@@ -1,10 +1,12 @@
 <template>
+ 
+
   <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
     <div class="post-card__header">
       <g-image alt="Cover image" v-if="post.coverImage" class="post-card__image" :src="post.coverImage" />
     </div>
     <div class="post-card__content">
-      <h2 class="post-card__title" v-html="post.title" />
+      <h2 class="title post-card__title" v-html="post.title" />
       <p class="post-card__description" v-html="post.description" />
       
       <PostMeta class="post-card__meta" :post="post" />
@@ -52,6 +54,7 @@ export default {
 
   &__title {
     margin-top: 0;
+    color: var(--title-color);
   }
 
   &:hover {
