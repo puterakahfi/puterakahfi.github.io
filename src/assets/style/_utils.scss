@@ -6,7 +6,10 @@
 	margin-bottom: var(--space);
 }
 
-.is-shadowless
-{
+.is-shadowless {
 	box-shadow: none !important;
+}
+
+.has-bg-transparent {
+	background: transparent !important;
 }

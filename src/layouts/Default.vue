@@ -1,14 +1,12 @@
 <template>
   <div id="app">
-    <Navbar class="container content-box has-padding-10 is-shadowless "/>
+    <Navbar class="container has-padding-10 is-shadowless"/>
 
-    <header   v-if="showHeader" class="content-box has-padding-5 is-shadowless header">
+    <header v-if="showHeader" class="content-box has-padding-5 is-shadowless header">
       <div class="header__left container">
         <Logo v-if="showLogo"/>
       </div>
-
-    
-    </header >
+    </header>
 
     <main class="main">
       <slot/>
@@ -32,8 +30,8 @@ import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
-    showLogo: { default: true},
-    showHeader: { default: true}
+    showLogo: { default: true },
+    showHeader: { default: true }
   },
   components: {
     Logo,

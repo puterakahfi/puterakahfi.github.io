@@ -2,9 +2,9 @@
   <Layout :show-logo="false" :show-header="false" class="container">
     <!-- Author intro -->
     <!-- List posts -->
-    <div class="columns is-multiline is-centered">
-
-
+    <div class="columns is-multiline">
+      <h1 class="column is-12 title is-6">Posting Terbaru</h1>
+      <hr>
       <PostCard
         class="column is-4"
         v-for="edge in $page.posts.edges"
@@ -17,7 +17,7 @@
 
 <page-query>
 {
-  posts: allPost {
+  posts: allPost (filter: { published: { eq: true }}){
     edges {
       node {
         id
@@ -46,11 +46,14 @@
 <script>
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
+import Layout from "../layouts/ComingSoon.vue";
 
 export default {
+  layouts: Layout,
   components: {
     Author,
-    PostCard
+    PostCard,
+    Layout
   },
   metaInfo: {
     title: "Welcome"

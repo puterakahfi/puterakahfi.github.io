@@ -15,7 +15,6 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="https://puterakahfi.github.io/nuxt-cv" target="_blank">CV</a>
@@ -23,9 +22,21 @@
 
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
-              <a target="_blank" class="button is-light" href="https://github.com/puterakahfi">
-                <font-awesome :icon="github"/>
+            <div class="buttons are-small">
+              <a
+                target="_blank"
+                class="button is-light has-bg-transparent"
+                href="https://github.com/puterakahfi"
+              >
+                <font-awesome :icon="github" class="has-margin-right-5"/>Github
+              </a>
+
+              <a
+                target="_blank"
+                class="button is-light has-bg-transparent"
+                href="https://github.com/puterakahfi"
+              >
+                <font-awesome :icon="facebook" class="has-margin-right-5"/>Facebook
               </a>
             </div>
           </div>
@@ -38,13 +49,18 @@
 
 <script>
 import ToggleTheme from "~/components/ToggleTheme.vue";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faFacebook,
+  faFacebookSquare
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 export default {
   data() {
     return {
-      github: faGithub
+      github: faGithub,
+      facebook: faFacebookSquare
     };
   },
   components: {
