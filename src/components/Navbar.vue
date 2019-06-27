@@ -17,7 +17,7 @@
       </div>
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="https://puterakahfi.github.io/nuxt-cv" target="_blank">CV</a>
+          <a class="navbar-item" href="https://puterakahfi.github.io/cv" target="_blank">CV</a>
         </div>
 
         <div class="navbar-end">

@@ -2,6 +2,9 @@
   <Layout :show-logo="false" :show-header="false" class="container">
     <!-- Author intro -->
     <!-- List posts -->
+
+
+      <LatestPost :post="$page.posts.edges" />
     <div class="columns is-multiline">
       <h1 class="column is-12 title is-6">Posting Terbaru</h1>
       <hr>
@@ -46,14 +49,16 @@
 <script>
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
-import Layout from "../layouts/Default.vue";
+import Layout from "../layouts/ComingSoon.vue";
+import LatestPost from "~/components/LatestPost.vue";
 
 export default {
   layouts: Layout,
   components: {
     Author,
     PostCard,
-    Layout
+    Layout,
+    LatestPost
   },
   metaInfo: {
     title: "Welcome"
