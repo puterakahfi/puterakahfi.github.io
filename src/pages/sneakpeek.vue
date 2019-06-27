@@ -3,8 +3,6 @@
     <!-- Author intro -->
     <!-- List posts -->
     <div class="columns is-multiline">
-      <h1 class="column is-12 title is-6">Posting Terbaru</h1>
-      <hr>
       <PostCard
         class="column is-4"
         v-for="edge in $page.posts.edges"

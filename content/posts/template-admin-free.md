@@ -1,8 +1,10 @@
 ---
-title: Template admin free untuk backend dashboard
+title: Template admin gratis
 date: 2019-06-25
-published: false
+published: true
 tags: ["Template", "Releases"]
 canonical_url: false
-description: "A new static site generator baby is born. It's highly inspired by Gatsby.js (React based) but built on top of Vue.js."
+description: ""
 ---
+
+Belum ada isinya

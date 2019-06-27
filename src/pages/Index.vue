@@ -46,7 +46,7 @@
 <script>
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
-import Layout from "../layouts/ComingSoon.vue";
+import Layout from "../layouts/Default.vue";
 
 export default {
   layouts: Layout,

@@ -22,7 +22,7 @@
               <font-awesome :icon="facebook" class="has-margin-right-5"/>Facebook
             </a>
 
-            <g-link target="_blank" class="button is-medium is-white" to="/sneakpeek">Sneak peek</g-link>
+            <g-link class="button is-medium is-white" to="/sneakpeek">Sneak peek</g-link>
           </div>
         </div>
         <div class="column is-7">
