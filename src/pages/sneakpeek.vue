@@ -1,15 +1,15 @@
 <template>
   <Layout :show-logo="false" :show-header="false" class="container">
     <!-- Author intro -->
-    <!-- List posts -->
-    <div class="columns is-multiline">
-      <PostCard
-        class="column is-4"
-        v-for="edge in $page.posts.edges"
-        :key="edge.node.id"
-        :post="edge.node"
-      />
+    <div class="columns">
+      <div class="column is-9">
+        <LatestPost :post="$page.posts.edges"/>
+      </div>
     </div>
+
+    <!-- List posts -->
+
+    <div class="columns is-multiline"></div>
   </Layout>
 </template>
 
@@ -44,11 +44,13 @@
 <script>
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
+import LatestPost from "~/components/LatestPost.vue";
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    LatestPost
   },
   metaInfo: {
     title: "Welcome"
