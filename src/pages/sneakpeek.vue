@@ -3,7 +3,7 @@
     <!-- Author intro -->
     <div class="columns">
       <div class="column is-9">
-        <LatestPost :post="$page.posts.edges"/>
+        <LatestPost data-aos="fade-up" :post="$page.posts.edges"/>
       </div>
     </div>
 
@@ -42,18 +42,16 @@
 </page-query>
 
 <script>
-import Author from "~/components/Author.vue";
-import PostCard from "~/components/PostCard.vue";
-import LatestPost from "~/components/LatestPost.vue";
+
+import LatestPost from "~/components/organisms/LatestPost.vue";
 
 export default {
+
   components: {
-    Author,
-    PostCard,
     LatestPost
   },
   metaInfo: {
-    title: "Welcome"
+    title: "Sneak peek"
   }
 };
 </script>

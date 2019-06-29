@@ -33,6 +33,10 @@ export default {
     showLogo: { default: true },
     showHeader: { default: true }
   },
+  mounted()
+  {
+    this.$aos.init();
+  },
   components: {
     Logo,
     ToggleTheme,

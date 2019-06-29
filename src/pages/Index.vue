@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="false" :show-header="false" class="container">
+  <Layout  :show-logo="false" :show-header="false" class="container">
     <!-- Author intro -->
     <!-- List posts -->
 
@@ -50,7 +50,7 @@
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
 import Layout from "../layouts/ComingSoon.vue";
-import LatestPost from "~/components/LatestPost.vue";
+import LatestPost from "~/components/organisms/LatestPost.vue";
 
 export default {
   layouts: Layout,

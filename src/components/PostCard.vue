@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import PostMeta from "~/components/PostMeta";
+import PostMeta from "~/components/molecules/PostMeta";
 import PostTags from "~/components/PostTags";
 
 export default {
