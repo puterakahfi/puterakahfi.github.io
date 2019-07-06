@@ -5,6 +5,7 @@ published: true
 tags: ["Markdown", "Test files"]
 canonical_url: false
 description: "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. "
+cover_image: https://static.cdn-cdpl.com/wp-images/2014/05/codimio_markdown-image(700x350-crop).jpg
 ---
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.Readability, however, is emphasized above all else. A Markdown-formatted

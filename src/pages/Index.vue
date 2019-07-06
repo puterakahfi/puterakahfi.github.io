@@ -1,20 +1,5 @@
 <template>
   <Layout  :show-logo="false" :show-header="false" class="container">
-    <!-- Author intro -->
-    <!-- List posts -->
-
-
-      <LatestPost :post="$page.posts.edges" />
-    <div class="columns is-multiline">
-      <h1 class="column is-12 title is-6">Posting Terbaru</h1>
-      <hr>
-      <PostCard
-        class="column is-4"
-        v-for="edge in $page.posts.edges"
-        :key="edge.node.id"
-        :post="edge.node"
-      />
-    </div>
   </Layout>
 </template>
 
@@ -34,7 +19,7 @@
         date (format: "D. MMMM YYYY")
         timeToRead
         description
-        coverImage (width: 770, height: 380, blur: 10)
+        cover_image (width: 770, height: 380, blur: 10)
         ...on Post {
             id
             title

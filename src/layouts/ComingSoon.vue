@@ -5,19 +5,19 @@
         <div class="column is-5 has-margin-top-100">
           <h1 data-aos="fade-left" class="title is-1">Coming Soon</h1>
           <p
-            class="subtitle is-5 has-text-grey has-margin-top-20"
+            class="subtitle is-4 has-text-weight-bold	  has-text-grey has-margin-top-10"
             data-aos="fade-up"
           >This website is under heavy development</p>
           <div class="buttons are-small" data-aos="fade-up">
-            <a target="_blank" class="button" href="https://github.com/puterakahfi">
+            <a target="_blank" class="button has-padding-15" href="https://github.com/puterakahfi">
               <font-awesome :icon="github" class="has-margin-right-5"/>Github
             </a>
 
-            <a target="_blank" class="button" href="https://facebook.com/puterakahfi">
+            <a target="_blank" class="button has-padding-15" href="https://facebook.com/codejunior">
               <font-awesome :icon="facebook" class="has-margin-right-5"/>Facebook
             </a>
 
-            <g-link class="button" to="/sneakpeek">
+            <g-link class="button has-padding-15" to="/sneakpeek">
               <font-awesome :icon="eye" class="has-margin-right-5"/>Sneak peek
             </g-link>
           </div>
@@ -35,7 +35,6 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import Navbar from "~/components/Navbar.vue";
 
 import ToggleTheme from "~/components/ToggleTheme.vue";
 import {
@@ -66,8 +65,7 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme,
-    Navbar
+    ToggleTheme
   }
 };
 </script>

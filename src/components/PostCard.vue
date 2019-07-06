@@ -3,9 +3,9 @@
     <div class="post-card__header">
       <g-image
         alt="Cover image"
-        v-if="post.coverImage"
+        v-if="post.cover_image"
         class="post-card__image"
-        :src="post.coverImage"
+        :src="post.cover_image"
       />
     </div>
     <div class="post-card__content">

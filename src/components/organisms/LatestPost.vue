@@ -3,7 +3,7 @@
     <div class="columns is-multiline">
       <div class="column is-7">
         <span class="tag has-margin-bottom-5">Posting Terbaru</span>
-        <h1 class="title is-3">
+        <h1 class="title is-3 has-margin-bottom-10">
           
           <g-link :to="post[0].node.path">{{post[0].node.title}}</g-link>
         </h1>
@@ -15,11 +15,12 @@
       <div class="column is-5">
         <div class="columns is-multiline">
           <div class="box" v-for="item in post.slice(1)" :key="item.node.id">
+     
             <article class="media">
               <div class="media-left">
                 <figure class="image is-128x128">
                   <img
-                    src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/chore_list_iof3.svg"
+                    :src="item.node.cover_image"
                     alt="Image"
                   >
                 </figure>
@@ -27,10 +28,10 @@
               <div class="media-content">
                 <div class="content">
                   <p>
-                    <strong class="title is-6">
+                    <strong class="title is-5 has-text-weight-bold	">
                       <g-link :to="item.node.path">{{item.node.title }}</g-link>
                     </strong>
-                    <PostMeta class="post-card__meta" :post="post[0].node"/>
+                    <PostMeta class="post-card__meta has-margin-top-5" :post="post[0].node"/>
                   </p>
                 </div>
                 <nav class="level is-mobile">
