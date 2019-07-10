@@ -72,4 +72,4 @@ Footer
 
 maka jika berhasil, animasi slide up akan muncul ketika scrool berada di posisi footer.
 
-Sekian tutorial singkat tentang bagaimna menambahkan AOS animasi di gridsome, jika menemukan kesalahan dan kekeliruan di artikel ini silahkan edit di [sini](https://github.com/puterakahfi/puterakahfi.github.io/edit/stable/content/posts/menambahkan-aos-pada-gridsome.md) dan pull request. :)
+Sekian tutorial singkat tentang bagaimna menambahkan AOS animasi di gridsome, jika menemukan kesalahan dan kekeliruan di artikel ini silahkan edit di <span class="button is-small is-text">[sini](https://github.com/puterakahfi/puterakahfi.github.io/edit/stable/content/posts/menambahkan-aos-pada-gridsome.md) </span>dan pull request. :)
