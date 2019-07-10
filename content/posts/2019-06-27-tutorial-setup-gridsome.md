@@ -6,8 +6,7 @@ tags: ["Gridsome", "Releases"]
 canonical_url: false
 series: true
 description: "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. "
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
-
+cover_image: "https://pbs.twimg.com/media/DzzUwQAXcAAI4pv.png"
 ---
 
 belum ada isinya juga

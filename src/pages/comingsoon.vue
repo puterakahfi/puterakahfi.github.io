@@ -1,6 +1,5 @@
 <template>
-  <Layout  :show-logo="false" :show-header="false" class="container">
-  </Layout>
+  <Layout :show-logo="false" :show-header="false" class="container"></Layout>
 </template>
 
 <page-query>
@@ -19,7 +18,7 @@
         date (format: "D. MMMM YYYY")
         timeToRead
         description
-        cover_image (width: 770, height: 380, blur: 10)
+        cover_image
         ...on Post {
             id
             title

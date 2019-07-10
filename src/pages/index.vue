@@ -3,10 +3,10 @@
     <!-- Author intro -->
     <div class="columns">
       <div class="column is-9">
-        <LatestPost data-aos="fade-up" :post="$page.posts.edges" />
+        <LatestPost data-aos="fade-down" :post="$page.posts.edges" />
       </div>
 
-      <div class="colum is-3 has-padding-5">
+      <div class="colum is-3 has-padding-5" data-aos="zoom-in">
         <img
           class="has-margin-10"
           src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/buffer_wq43.svg"
@@ -46,7 +46,7 @@
         date (format: "D. MMMM YYYY")
         timeToRead
         description
-        cover_image (width: 770, height: 380, blur: 10)
+        cover_image 
         ...on Post {
             id
             title

@@ -2,36 +2,34 @@
   <div>
     <div class="columns is-multiline">
       <div class="column is-7">
-        <span class="tag has-margin-bottom-5">Posting Terbaru</span>
-        <h1 class="title is-3 has-margin-bottom-10">
-          
+        <span
+          class="tag is-medium has-margin-bottom-10 is-warning has-text-weight-bold"
+        >Posting Terbaru</span>
+        <h1 class="title is-1 has-margin-bottom-10">
           <g-link :to="post[0].node.path">{{post[0].node.title}}</g-link>
         </h1>
 
-        <PostMeta class="post-card__meta" :post="post[0].node"/>
+        <PostMeta class="post-card__meta" :post="post[0].node" />
 
         <p class="subtitle is-6 has-margin-top-20">{{post[0].node.description}}</p>
+        <g-link class="button" :to="post[0].node.path">selengkapnya..</g-link>
       </div>
       <div class="column is-5">
         <div class="columns is-multiline">
-          <div class="box" v-for="item in post.slice(1)" :key="item.node.id">
-     
+          <div data-aos="slide-up" class="box" v-for="item in post.slice(1)" :key="item.node.id">
             <article class="media">
               <div class="media-left">
                 <figure class="image is-128x128">
-                  <img
-                    :src="item.node.cover_image"
-                    alt="Image"
-                  >
+                  <img :src="item.node.cover_image" alt="Image" />
                 </figure>
               </div>
               <div class="media-content">
                 <div class="content">
                   <p>
-                    <strong class="title is-5 has-text-weight-bold	">
+                    <strong class="title is-5 has-text-weight-bold">
                       <g-link :to="item.node.path">{{item.node.title }}</g-link>
                     </strong>
-                    <PostMeta class="post-card__meta has-margin-top-5" :post="post[0].node"/>
+                    <PostMeta class="post-card__meta has-margin-top-5" :post="post[0].node" />
                   </p>
                 </div>
                 <nav class="level is-mobile">

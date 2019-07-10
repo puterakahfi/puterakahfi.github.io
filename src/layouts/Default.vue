@@ -1,18 +1,10 @@
 <template>
   <div id="app">
-    <Navbar class="container has-padding-10 is-shadowless"/>
-
-    <header v-if="showHeader" class="content-box has-padding-5 is-shadowless header">
-      <div class="header__left container">
-        <Logo v-if="showLogo"/>
-      </div>
-    </header>
+    <Navbar class="container has-padding-10 is-shadowless" />
 
     <main class="main">
-      <slot/>
+      <slot />
     </main>
-
-    
   </div>
 </template>
 
@@ -27,8 +19,7 @@ export default {
     showLogo: { default: true },
     showHeader: { default: true }
   },
-  mounted()
-  {
+  mounted() {
     this.$aos.init();
   },
   components: {

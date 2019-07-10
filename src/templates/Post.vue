@@ -1,28 +1,27 @@
 <template>
   <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">{{ $page.post.title }}</h1>
+    <div class="content" data-aos="fade-up">
+      <div class="post-title">
+        <h1 class="post-title__text">{{ $page.post.title }}</h1>
 
-      <PostMeta :post="$page.post"/>
-    </div>
-
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image"/>
+        <PostMeta :post="$page.post" />
       </div>
 
-      <div class="post__content" v-html="$page.post.content"/>
+      <div class="post content-box">
+        <div class="post__header">
+          <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+        </div>
 
-      <div class="post__footer">
-        <PostTags :post="$page.post"/>
+        <div class="post__content" v-html="$page.post.content" />
+
+        <div class="post__footer">
+          <PostTags :post="$page.post" />
+        </div>
       </div>
     </div>
-
     <div class="post-comments">
       <!-- Add comment widgets here -->
     </div>
-
-    <Author class="post-author"/>
   </Layout>
 </template>
 
@@ -65,7 +64,7 @@ query Post ($path: String!) {
     }
     description
     content
-    cover_image (width: 860, blur: 10)
+    cover_image
   }
 }
 </page-query>
