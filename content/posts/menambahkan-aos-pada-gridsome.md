@@ -12,7 +12,7 @@ Kali ini saya akan sharing tentang tutorial singkat menambahkan AOS library di g
 untuk menambahkan AOS di gridsome cukup mudah, kita tinggal registerkan plugin di file main.js, sebelumnya install dulu _library_ dengan perintah :
 
 ```bash
-yarn add ios@next
+yarn add aos@next
 ```
 
 kemudian registerkan aos dan css nya di file main.js, saya meregisterkan aos ke vue prototype, karena ada issue ketika saya langsung menggunakan AOS.init, yaitu animasi nggak jalan ketika di generate, namun tidak ada masalah jika di mode development
