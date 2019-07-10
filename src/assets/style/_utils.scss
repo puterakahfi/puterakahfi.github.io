@@ -1,0 +1,15 @@
+.text-center {
+	text-align: center;
+}
+
+.space-bottom {
+	margin-bottom: var(--space);
+}
+
+.is-shadowless {
+	box-shadow: none !important;
+}
+
+.has-bg-transparent {
+	background: transparent !important;
+}
