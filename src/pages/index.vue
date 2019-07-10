@@ -66,7 +66,7 @@ export default {
     LatestPost
   },
   metaInfo: {
-    title: "Sneak peek"
+    title: "Welcome to blog catatan newbie"
   }
 };
 </script>

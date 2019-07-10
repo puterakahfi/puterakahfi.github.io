@@ -1,18 +1,13 @@
 ---
 title: Menambahkan AOS(Animation On Scroll) effect pada gridsome
-
 date: 2019-07-11
-
 published: true
-
 tags: ["gridsome", "Vue Plugins", "animation"]
-
 canonical_url: false
-
 description: "tutorial singkat tentang bagaimana menambahkan AOS library pada gridsome"
 ---
 
-Kali ini saya akan sharing tentang tutorial singkat menambahak AOS plugin di gridsome, AOS sendiri singkatan dari Animation On Scroll, dari namanya sudah tahu bahwa fungsinya adalah memberikan effect animasi ketika kita scroll halaman website tersebut, dan animasinya juga bermacam-macam, untuk demonya bisa di lihat di [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
+Kali ini saya akan sharing tentang tutorial singkat menambahkan AOS library di gridsome, AOS sendiri singkatan dari Animation On Scroll, dari namanya sudah tahu bahwa fungsinya adalah memberikan effect animasi ketika kita scroll halaman website tersebut, dan animasinya juga bermacam-macam, untuk demonya bisa di lihat di [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
 
 untuk menambahkan AOS di gridsome cukup mudah, kita tinggal registerkan plugin di file main.js, sebelumnya install dulu _library_ dengan perintah :
 
@@ -77,4 +72,4 @@ Footer
 
 maka jika berhasil, animasi slide up akan muncul ketika scrool berada di posisi footer.
 
-Sekian tutorial singkat tentang bagaimna menambahkan AOS animasi di gridsome, jika menemukan kesalah dan kekeliruan di artikel ini silahkan post di githubnya di sini dan pull request. :)
+Sekian tutorial singkat tentang bagaimna menambahkan AOS animasi di gridsome, jika menemukan kesalahan dan kekeliruan di artikel ini silahkan edit di [sini](https://github.com/puterakahfi/puterakahfi.github.io/edit/stable/content/posts/menambahkan-aos-pada-gridsome.md) dan pull request. :)
