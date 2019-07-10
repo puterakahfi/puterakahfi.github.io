@@ -33,8 +33,8 @@
 
               <a
                 target="_blank"
-                class="button is-light has-bg-transparent"
-                href="https://github.com/puterakahfi"
+                class="button is-medium is-light has-bg-transparent"
+                href="https://facebook.com/codejunior"
               >
                 <font-awesome :icon="facebook" class="has-margin-right-5"/>Facebook
               </a>
