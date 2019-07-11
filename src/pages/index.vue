@@ -21,6 +21,9 @@
           target="_blank"
           class="button is-small button is-info"
         >Menuju link</a>
+
+        <hr />
+        <SmallFooter class="has-margin-top-20 is-marginless" />
       </div>
     </div>
 
@@ -59,14 +62,15 @@
 </page-query>
 
 <script>
-import LatestPost from "~/components/organisms/LatestPost.vue";
-
+import LatestPost from "~/components/organisms/LatestPost";
+import SmallFooter from "~/components/molecules/SmallFooter";
 export default {
   components: {
-    LatestPost
+    LatestPost,
+    SmallFooter
   },
   metaInfo: {
-    title: "Welcome to blog catatan newbie"
+    title: "Blog catatan newbie"
   }
 };
 </script>

@@ -17,7 +17,13 @@ import "~/assets/style/index.scss";
 import DefaultLayout from "~/layouts/Default.vue";
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
-export default function(Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient }) {
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+  })
+
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);

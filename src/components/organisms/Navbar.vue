@@ -2,7 +2,7 @@
   <section class>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item has-text-weight-bold	" href="/">Puterakahfi</a>
+        <a class="navbar-item has-text-weight-bold" href="/">Puterakahfi</a>
         <a
           role="button"
           class="navbar-burger burger"
@@ -21,25 +21,7 @@
         </div>
 
         <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons are-small">
-              <a
-                target="_blank"
-                class="button is-light has-bg-transparent"
-                href="https://github.com/puterakahfi"
-              >
-                <font-awesome :icon="github" class="has-margin-right-5"/>Github
-              </a>
-
-              <a
-                target="_blank"
-                class="button is-light has-bg-transparent"
-                href="https://github.com/puterakahfi"
-              >
-                <font-awesome :icon="facebook" class="has-margin-right-5"/>Facebook
-              </a>
-            </div>
-          </div>
+          <div class="navbar-item"></div>
         </div>
       </div>
     </nav>
