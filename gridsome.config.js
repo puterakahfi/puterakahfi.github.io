@@ -34,7 +34,8 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'sicons icon-linsk',
+      anchorClassName: 'fas fa-link',
+      autolinkClassName: 'faddds fa-align-justifys',
       plugins: [
         '@gridsome/remark-prismjs'
       ]

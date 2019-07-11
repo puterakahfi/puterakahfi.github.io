@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="content" data-aos="fade-up">
-      <div class="post-title">
+      <div class="post-title container">
         <h1 class="post-title__text">{{ $page.post.title }}</h1>
 
         <PostMeta :post="$page.post" />
@@ -12,7 +12,7 @@
           <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
         </div>
 
-        <div class="post__content" v-html="$page.post.content" />
+        <div  v-html="$page.post.content" />
 
         <div class="post__footer">
           <PostTags :post="$page.post" />
