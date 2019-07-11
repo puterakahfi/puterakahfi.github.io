@@ -23,4 +23,5 @@ Bosen nggak sih tiap bikin dashboard pake admin LTE.  :) bisa di katakan adminLT
 ## [Modular Admin](https://github.com/modularcode/modular-admin-html)
 ![Modular Admin](https://camo.githubusercontent.com/36adc811a092a08e34e3594b00afb4810d5707e9/687474703a2f2f6d6f64756c6172636f64652e6769746875622e696f2f6d6f64756c61722d61646d696e2d68746d6c2f6173736574732f64656d6f2e706e67)
 
-## SB Admin
+## [SB Admin 2](https://startbootstrap.com/themes/sb-admin-2/)
+![ sb admin 2](https://startbootstrap.com/assets/img/screenshots/themes/sb-admin-2.png)
