@@ -5,14 +5,14 @@
         <span
           class="tag is-size-6 is-medium has-text-white has-margin-bottom-10 is-warning has-text-weight-semibold"
         >Posting Terbaru</span>
-        <h1 class="title is-1 has-margin-bottom-10">
+        <h1 class="title is-3 has-margin-bottom-10">
           <g-link :to="post[0].node.path">{{post[0].node.title}}</g-link>
         </h1>
 
         <PostMeta class="post-card__meta" :post="post[0].node" />
 
         <p class="subtitle is-6 has-margin-top-20">{{post[0].node.description}}</p>
-        <g-link class="button" :to="post[0].node.path">selengkapnya</g-link>
+        <g-link class="button is-outlined" :to="post[0].node.path">selengkapnya</g-link>
       </div>
       <div class="column is-5">
         <div class="columns is-multiline">
