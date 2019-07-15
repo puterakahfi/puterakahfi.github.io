@@ -1,5 +1,5 @@
 ---
-title: Tutorial singkat setup gridsome untuk blogging
+title: "Tutorial singkat setup gridsome untuk blogging"
 date: 2019-06-27
 published: true
 tags: ["Gridsome", "Releases"]

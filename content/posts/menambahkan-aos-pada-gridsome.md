@@ -1,5 +1,5 @@
 ---
-title: Menambahkan AOS(Animation On Scroll) effect pada gridsome
+title: "Menambahkan AOS(Animation On Scroll) effect pada gridsome"
 date: 2019-07-11
 published: true
 tags: ["gridsome", "Vue Plugins", "animation"]

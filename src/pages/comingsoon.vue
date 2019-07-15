@@ -2,33 +2,6 @@
   <Layout :show-logo="false" :show-header="false" class="container"></Layout>
 </template>
 
-<page-query>
-{
-  posts: allPost (filter: { published: { eq: true }}){
-    edges {
-      node {
-        id
-        title
-        path
-        tags {
-          id
-          title
-          path
-        }
-        date (format: "D. MMMM YYYY")
-        timeToRead
-        description
-        cover_image
-        ...on Post {
-            id
-            title
-            path
-        }
-      }
-    }
-  }
-}
-</page-query>
 
 <script>
 import Author from "~/components/Author.vue";
