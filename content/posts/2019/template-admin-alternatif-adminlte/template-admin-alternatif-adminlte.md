@@ -1,5 +1,5 @@
 ---
-title: Template admin alternative adminLTE
+title: Template admin alternatif adminLTE
 date: 2019-06-25
 published: true
 tags: ["Template Admin", "Releases"]
