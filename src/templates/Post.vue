@@ -2,17 +2,15 @@
   <Layout>
     <div class="content" data-aos="fade-up">
       <div class="post-title container">
-        <h1 class="title is-3">{{ $page.post.title }}</h1>
+        <h1 class="title is-3 has-margin-bottom-25">{{ $page.post.title }}</h1>
 
-        <PostMeta :post="$page.post" />
+        <PostMeta :post="$page.post" class="subtitle is-6 has-margin-bottom-40" />
       </div>
       <div class="post content-box">
         <div class="post__header">
           <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
         </div>
-
         <div v-html="$page.post.content" />
-
         <div class="post__footer">
           <PostTags :post="$page.post" />
         </div>

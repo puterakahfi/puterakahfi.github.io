@@ -23,12 +23,10 @@
             class="button is-small button is-info"
           >Menuju link</a>
         </div>
+
+        <hr />
         <div data-aos="fade-up">
-          <g-image
-            class="has-margin-20"
-            src="~/assets/images/undraw_web_developer.svg"
-            alt
-          ></g-image>
+          <g-image class="has-margin-20" src="~/assets/images/undraw_web_developer.svg" alt></g-image>
           <h1
             class="title is-5 has-text-left has-margin-bottom-5"
           >Awesome Javascript Developer Indonesia</h1>
@@ -48,7 +46,6 @@
     </div>
 
     <!-- List posts -->
-
     <div class="columns is-multiline"></div>
   </Layout>
 </template>
@@ -69,7 +66,7 @@ query Post{
         date (format: "D. MMMM YYYY")
         timeToRead
         description
-        cover_image 
+        cover_image
         ...on Post {
             id
             title
