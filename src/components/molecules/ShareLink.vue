@@ -1,7 +1,7 @@
 <template>
   <div>
     <social-sharing
-      :url="item.path"
+      :url="url + item.path"
       :title="item.title"
       :description="item.description"
       :quote="item.description"
@@ -35,7 +35,12 @@
 
 <script>
 export default {
-  props: ["item"]
+  props: ["item"],
+  data(){
+    return {
+      url :  window.location
+    }
+  }
 };
 </script>
 
