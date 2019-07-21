@@ -1,11 +1,11 @@
 <template>
   <div>
     <social-sharing
-      :url="url + item.path"
+      :url="url+item.path"
       :title="item.title"
       :description="item.description"
       :quote="item.description"
-      :hashtags="item.tags.join(',')"
+      hashtags=""
       inline-template
       class
     >
@@ -36,10 +36,13 @@
 <script>
 export default {
   props: ["item"],
-  data(){
+  data() {
     return {
-      url :  window.location
-    }
+      url: ""
+    };
+  },
+  mounted() {
+    this.url = window.location.origin;
   }
 };
 </script>
