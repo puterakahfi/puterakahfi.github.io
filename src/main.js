@@ -1,5 +1,6 @@
 import Buefy from "buefy";
 import AOS from "aos";
+import SocialSharing from "vue-social-sharing";
 import "aos/dist/aos.css";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -28,6 +29,9 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(Buefy, {
     defaultIconPack: "fas"
   });
+
+  Vue.use(SocialSharing);
+
 
   Vue.prototype.$aos = AOS;
 }

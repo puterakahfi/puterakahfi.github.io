@@ -4,7 +4,9 @@
       <div class="post-title container">
         <h1 class="title is-3 has-margin-bottom-25">{{ $page.post.title }}</h1>
 
-        <PostMeta :post="$page.post" class="subtitle is-6 has-margin-bottom-40" />
+        <PostMeta :post="$page.post" class="subtitle is-6 has-margin-bottom-15" />
+
+        <ShareLink class="text-is-center has-margin-bottom-20" :item="$page.post"></ShareLink>
       </div>
       <div class="post content-box">
         <div class="post__header">
@@ -16,6 +18,7 @@
         </div>
       </div>
     </div>
+    <div class="share"></div>
     <div class="post-comments">
       <!-- Add comment widgets here -->
     </div>
@@ -26,12 +29,14 @@
 import PostMeta from "~/components/molecules/PostMeta";
 import PostTags from "~/components/PostTags";
 import Author from "~/components/Author";
+import ShareLink from "~/components/molecules/ShareLink";
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    ShareLink
   },
   metaInfo() {
     return {

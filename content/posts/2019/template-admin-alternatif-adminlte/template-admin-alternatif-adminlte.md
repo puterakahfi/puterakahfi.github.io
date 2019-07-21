@@ -20,12 +20,12 @@ Bosen nggak sih tiap bikin dashboard pake admin LTE. :) bisa di katakan adminLTE
 
 ## [Core UI](https://coreui.io/)
 
-![core UI](./images/coreui.jpg)
+[![core UI](./images/coreui.jpg)](https://coreui.io/)
 
 ## [Modular Admin](https://github.com/modularcode/modular-admin-html)
 
-![Modular Admin](./images/modularadmin.png)
+[![Modular Admin](./images/modularadmin.png)](https://github.com/modularcode/modular-admin-html)
 
 ## [SB Admin 2](https://startbootstrap.com/themes/sb-admin-2/)
 
-![ sb admin 2](./images/sbadmin2.png)
+[![ sb admin 2](./images/sbadmin2.png)](https://startbootstrap.com/themes/sb-admin-2/)

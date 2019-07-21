@@ -1,23 +1,48 @@
 <template>
   <div>
-    <nav class="level is-mobile">
-      <div class="level-left">
-        <a class="level-item" aria-label="reply">
-          <span class="icon is-small">
-            <i class="fas fa-reply" aria-hidden="true"></i>
-          </span>
-        </a>
-        <a class="level-item" aria-label="retweet">
-          <span class="icon is-small">
-            <i class="fas fa-retweet" aria-hidden="true"></i>
-          </span>
-        </a>
-        <a class="level-item" aria-label="like">
-          <span class="icon is-small">
-            <i class="fas fa-heart" aria-hidden="true"></i>
-          </span>
-        </a>
+    <social-sharing
+      :url="item.path"
+      :title="item.title"
+      :description="item.description"
+      :quote="item.description"
+      :hashtags="item.tags.join(',')"
+      inline-template
+      class
+    >
+      <div>
+        <network network="facebook" class="tag is-white">
+          <i class="fab fa-facebook fa-2x"></i>
+        </network>
+        <network network="line" class="tag is-white">
+          <i class="fab fa-line fa-2x"></i>
+        </network>
+        <network network="linkedin" class="tag is-white">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </network>
+        <network network="skype" class="tag is-white">
+          <i class="fab fa-skype fa-2x"></i>
+        </network>
+        <network network="telegram" class="tag is-white">
+          <i class="fab fa-telegram fa-2x"></i>
+        </network>
+        <network network="whatsapp" class="tag is-white">
+          <i class="fab fa-whatsapp fa-2x"></i>
+        </network>
       </div>
-    </nav>
+    </social-sharing>
   </div>
 </template>
+
+<script>
+export default {
+  props: ["item"]
+};
+</script>
+
+
+<style lang="scss">
+.tag {
+  cursor: pointer !important;
+  color: red;
+}
+</style>

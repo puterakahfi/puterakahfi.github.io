@@ -24,6 +24,7 @@
     "gridsome": "^0.6.6",
     "vue": "^2.6.10",
     "vue-server-renderer": "^2.6.10",
+    "vue-social-sharing": "^2.4.5",
     "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
