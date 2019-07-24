@@ -1,29 +1,3 @@
-# Gridsome Blog Starter
+# Putera Kahfi Personal Website
 
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
-
-## Features
-- Beautiful and simple design.
-- Markdown for content.
-- Tags support.
-- Dark / Light toggle.
-- CSS variables, SCSS & BEM for styling.
-- 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
-
-## Demo URL
-
-https://gridsome-starter-blog.netlify.com
-
-## Install
-
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Install this starter
-
-1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
-2. `cd my-gridsome-site` to open folder
-3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+[![Performance](test/lighthouse/lighthouse_performance.svg)](https://puterakahfi.github.io) [![Accessibility](test/lighthouse/lighthouse_accessibility.svg)](https://puterakahfi.github.io) [![Best Practice](test/lighthouse/lighthouse_best-practices.svg)](https://puterakahfi.github.io) [![SEO](test/lighthouse/lighthouse_seo.svg)](https://puterakahfi.github.io) [![PWA](test/lighthouse/lighthouse_pwa.svg)](https://puterakahfi.github.io)
