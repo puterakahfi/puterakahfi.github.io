@@ -1,3 +1,3 @@
 # Putera Kahfi Personal Website
-
+[![Build Status](https://travis-ci.org/puterakahfi/puterakahfi.github.io.svg?branch=stable)](https://puterakahfi.github.io)
 [![Performance](test/lighthouse/lighthouse_performance.svg)](https://puterakahfi.github.io) [![Accessibility](test/lighthouse/lighthouse_accessibility.svg)](https://puterakahfi.github.io) [![Best Practice](test/lighthouse/lighthouse_best-practices.svg)](https://puterakahfi.github.io) [![SEO](test/lighthouse/lighthouse_seo.svg)](https://puterakahfi.github.io) [![PWA](test/lighthouse/lighthouse_pwa.svg)](https://puterakahfi.github.io)
