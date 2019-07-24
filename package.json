@@ -7,6 +7,7 @@
     "dev": "gridsome develop",
     "explore": "gridsome explore",
     "predeploy": "yarn build",
+    "score": "/usr/local/bin/lighthouse-badges -u https://puterakahfi.github.io -o test/lighthouse",
     "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
