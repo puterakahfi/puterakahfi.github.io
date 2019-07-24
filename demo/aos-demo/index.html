@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="lang">
+  <head>
+    <title data-vue-tag="true">Putera Kahfi - Putera Kahfi</title><meta data-vue-tag="true" charset="utf-8"><meta data-vue-tag="true" name="generator" content="Gridsome v0.6.6"><meta data-vue-tag="true" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="true" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="true" data-key="description" name="description" content="Web Developer"><link data-vue-tag="true" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.faafb5c.png"><link data-vue-tag="true" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.faafb5c.png"><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="50x50" href="/assets/static/favicon.0d639c8.faafb5c.png"><link data-vue-tag="true" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"><noscript data-vue-tag="true" ><style>.g-image--loading{display:none;}</style></noscript><link rel="preload" href="/assets/css/0.styles.1f92d0f8.css" as="style"><link rel="preload" href="/assets/js/app.68ec2877.js" as="script"><link rel="preload" href="/assets/js/page--src--pages--demo--aos-demo-vue.d853327f.js" as="script"><link rel="prefetch" href="/assets/js/page--node-modules--gridsome--app--pages--404-vue.3e4bacc8.js"><link rel="prefetch" href="/assets/js/page--src--pages--comingsoon-vue.9a498a92.js"><link rel="prefetch" href="/assets/js/page--src--pages--index-vue.52a96da6.js"><link rel="prefetch" href="/assets/js/page--src--templates--post-vue.63f0dde8.js"><link rel="prefetch" href="/assets/js/page--src--templates--tag-vue.69d1462e.js"><link rel="prefetch" href="/assets/js/vendors~page--src--pages--comingsoon-vue.14998298.js"><link rel="stylesheet" href="/assets/css/0.styles.1f92d0f8.css">
+  </head>
+  <body data-vue-tag="">
+    <script>
+      // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
+      (function() {
+        window.__onThemeChange = function() {};
+        function setTheme(newTheme) {
+          window.__theme = newTheme;
+          preferredTheme = newTheme;
+          document.body.setAttribute('data-theme', newTheme);
+          window.__onThemeChange(newTheme);
+        }
+
+        var preferredTheme;
+        try {
+          preferredTheme = localStorage.getItem('theme');
+        } catch (err) { }
+
+        window.__setPreferredTheme = function(newTheme) {
+          setTheme(newTheme);
+          try {
+            localStorage.setItem('theme', newTheme);
+          } catch (err) {}
+        }
+
+        var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        darkQuery.addListener(function(e) {
+          window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+        });
+
+        setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+      })();
+    </script>
+
+    <div data-server-rendered="true" id="app"><h1>Demo menggunakan Gridsome</h1></div>
+    <script src="/assets/js/app.68ec2877.js" defer></script><script src="/assets/js/page--src--pages--demo--aos-demo-vue.d853327f.js" defer></script>
+  </body>
+</html>
