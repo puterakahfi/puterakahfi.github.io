@@ -1,11 +1,12 @@
+// import libraries
 import Buefy from "buefy";
 import AOS from "aos";
 import SocialSharing from "vue-social-sharing";
-import "aos/dist/aos.css";
-
+import VueDisqus from "vue-disqus";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-// Import stisla css
-// Import main css
+
+// import css
+import "aos/dist/aos.css";
 import "buefy/dist/buefy.css";
 import "bulma-helpers/css/bulma-helpers.min.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -31,7 +32,6 @@ export default function (Vue, { router, head, isClient }) {
   });
 
   Vue.use(SocialSharing);
-
-
+  Vue.use(VueDisqus)
   Vue.prototype.$aos = AOS;
 }

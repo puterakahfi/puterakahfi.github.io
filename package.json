@@ -1,5 +1,6 @@
 {
-  "name": "gridsome-blog",
+  "name": "puterakahfi-blog",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -23,6 +24,7 @@
     "bulma-helpers": "^0.3.8",
     "gridsome": "^0.6.6",
     "vue": "^2.6.10",
+    "vue-disqus": "^3.0.5",
     "vue-server-renderer": "^2.6.10",
     "vue-social-sharing": "^2.4.5",
     "vue-template-compiler": "^2.6.10"
