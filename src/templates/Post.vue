@@ -20,7 +20,7 @@
     </div>
     <div class="share"></div>
     <div class="post-comments">
-      <!-- Add comment widgets here -->
+      <vue-disqus shortname="puterakahfi-1" :identifier="$page.post.path" :url="$page.post.path"></vue-disqus>
     </div>
   </Layout>
 </template>
