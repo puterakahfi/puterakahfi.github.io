@@ -9,7 +9,6 @@ description: ""
 ---
 
 
-# Kuliah Jurusan IT tapi nggak punya keahlian di bidang IT
 
 ## Pendahuluan
 saya mulai cerita ini dari pengalaman memberikan bimbingan beberapa orang yang  kuliah di jurusan IT dan berada di semester akhir, mereka datang dan minta saya untuk menjadi 'pembimbing' atau malah minta dibuatkan program untuk skripsi/TA dan mereka kebingungan bagaimana cara membuat website. kadang ada yang justru masih bingung mau ambil tema atau judul skripsi yang cocok.
@@ -46,24 +45,24 @@ kalo ini no comment :), tapi saya menemukan fakta menarik soal passion, bahwa pa
 ## Saran atau Solusi
 terus saran apa untuk membantu supaya orang yang kuliah jurusan IT bisa bersaing dengan yang non jurusan IT tapi punya skill ? karena kita tahu sendiri sekarang sudah ada beberapa perusahaan yang mereka nggak butuh ijasah tapi keahlian.
 
-### Tanyakan lagi tujuan kuliah di jurusan IT
+#### Tanyakan lagi tujuan kuliah di jurusan IT
 tanyakan lagi tujuan anda kuliah buat apa sih ?, ikut-ikutan temen, dipaksa orang tua, bingung mau milih jurusan apa, atau memang karena anda sudah punya tujuan yang spesifik untuk menjadi apa 
 
-### Jadilah proaktif, jangan hanya mengandalkan materi dari kampus
+#### Jadilah proaktif, jangan hanya mengandalkan materi dari kampus
 jadilah pro aktif, ikut komunitas, ikut seminar, ikuti perkembangan-perkembangan terbaru, banyak praktek 
 
-### Kuasai satu bidang saja
+#### Kuasai satu bidang saja
 Kuasai satu bidang saja, yah maksudnya kalo di suruh bikin  tugas dari kampus yang nggak berhubungan dengan bidang yang ingin anda kuasai,yah di  bikin kemudian kumpulkan. tapi di waktu luang anda, fokuskan waktu belajar dan latihan anda untuk bidan yang memang anda fokus mau kuasai, misal fokusnya menjadi front end developer, maka konsentrasikan latihan anda, cari dan pelajari jalur-jalur yang mesti di lewati, anda bisa melihat roadmap nya di [sini](https://puterakahfi.github.io/learning-source/en/general/frontend-roadmap.html), sehingga anda punya map yang jelas
 
-### Perkuat fondasi
+#### Perkuat fondasi
 misal fondasi untuk web development adalah html, css, javascript, git, er-d, logika. maka fondasi ini akan membantu memahami pengembangan-pengembangan selanjutnya (framework, pattern, infrastructure)
 
-### Buat rencana yang jelas
+#### Buat rencana yang jelas
 buat planning yang jelas, berapa waktu yang anda alokasikan setiap haru, berapa uang yang anda keluarkan untuk berinvestasi di keahlian ini(buku, training, workshop)
 
-### belajar terus
+#### belajar terus
 continuous learning adalah habit yang harus kita biasakan, karena dunia IT sangat cepat berkembang. 
 
 
 
-> note: artikel ini masih dalam proses pengembangan, dan akan terus di update berdasarkan fakta-fakta di lapangan
+> note: artikel ini masih dalam proses pengembangan, dan akan terus di update berdasarkan fakta-fakta di lapangan, jika menemukan typo, ada yang salah anda bisa berkontribusi di sini
