@@ -65,4 +65,4 @@ continuous learning adalah habit yang harus kita biasakan, karena dunia IT sanga
 
 
 
-> note: artikel ini masih dalam proses pengembangan, dan akan terus di update berdasarkan fakta-fakta di lapangan, jika menemukan typo, ada yang salah anda bisa berkontribusi di sini
+> note: artikel ini masih dalam proses pengembangan, dan akan terus di update berdasarkan fakta-fakta di lapangan, jika menemukan typo, ada yang salah anda bisa berkontribusi di [sini](https://github.com/puterakahfi/puterakahfi.github.io/edit/stable/content/posts/2019-07-31-kuliah-it-tapi-nggak-punya-keahlian.md)
