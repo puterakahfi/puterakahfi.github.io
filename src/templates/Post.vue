@@ -19,8 +19,11 @@
       </div>
     </div>
     <div class="share"></div>
-    <div class="post-comments">
-      <vue-disqus shortname="puterakahfi-1" :identifier="$page.post.path" :url="$page.post.path"></vue-disqus>
+    <div class="post-comments container">
+
+
+      {{ $page.post.slug }}
+      <vue-disqus shortname="puterakahfi-1" :identifier="$page.post.slug" :url="$page.post.slug"></vue-disqus>
     </div>
   </Layout>
 </template>
