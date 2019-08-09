@@ -1,7 +1,7 @@
 ---
 title: "Kuliah Jurusan IT tapi nggak punya keahlian di bidang IT"
 date: 2019-07-31
-published: true
+published: false
 tags: ["Sharing Knowledge", "Opinion"]
 canonical_url: false
 series: false
