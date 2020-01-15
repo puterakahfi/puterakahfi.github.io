@@ -95,7 +95,7 @@ export default {
     this.latestPost = this.$page.posts.edges;
   },
   metaInfo: {
-    title: "Blog catatan newbie"
+    title: ""
   }
 };
 </script>

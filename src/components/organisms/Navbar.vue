@@ -16,9 +16,7 @@
         </a>
       </div>
       <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="https://puterakahfi.github.io/cv" target="_blank">cv</a>
-        </div>
+ 
 
         <div class="navbar-end">
           <div class="navbar-item"></div>
