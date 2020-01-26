@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="columns is-multiline">
-      <div class="column is-7">
+      <div class="column is-12">
         <span
           class="tag is-size-6 is-medium has-text-white has-margin-bottom-10 is-warning has-text-weight-semibold"
         >Posting Terbaru</span>
@@ -14,8 +14,8 @@
         <p class="subtitle is-6 has-margin-top-20">{{post[0].node.description}}</p>
         <g-link class="button is-outlined" :to="post[0].node.path">selengkapnya</g-link>
       </div>
-      <div class="column is-5">
-        <div class="columns is-multiline">
+      <div class="column is-12 mt-20">
+        <div class="">
           <div data-aos="slide-up" class="box" v-for="item in post.slice(1)" :key="item.node.id">
             <article class="media">
               <div class="media-left">
