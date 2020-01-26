@@ -2,11 +2,11 @@
   <Layout :show-logo="false" :show-header="false" class="container">
     <!-- Author intro -->
     <div class="columns">
-      <div class="column is-10">
+      <div class="column is-9">
         <LatestPost data-aos="fade-down" :post="latestPost" />
       </div>
 
-      <div class="colum is-2 has-padding-5">
+      <div class="column is-3 has-padding-5">
         <div data-aos="fade-up">
           <g-image
             class="has-margin-10"

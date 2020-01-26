@@ -2,7 +2,7 @@
   <section class>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item has-text-weight-bold" href="/">Puterakahfi</a>
+        <a class="navbar-item has-text-weight-bold" href="/">Putera Kahfi</a>
         <a
           role="button"
           class="navbar-burger burger"
@@ -16,8 +16,6 @@
         </a>
       </div>
       <div id="navbarBasicExample" class="navbar-menu">
- 
-
         <div class="navbar-end">
           <div class="navbar-item"></div>
         </div>

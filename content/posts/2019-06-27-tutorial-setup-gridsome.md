@@ -1,7 +1,7 @@
 ---
 title: "Tutorial singkat setup gridsome untuk blogging"
 date: 2019-06-27
-published: true
+published: false
 tags: ["Gridsome", "Releases"]
 canonical_url: false
 series: true

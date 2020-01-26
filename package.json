@@ -24,6 +24,7 @@
     "buefy": "^0.7.10",
     "bulma-helpers": "^0.3.8",
     "gridsome": "^0.7",
+    "remark-toc": "^7.0.0",
     "vue": "^2.6.10",
     "vue-disqus": "^3.0.5",
     "vue-server-renderer": "^2.6.10",

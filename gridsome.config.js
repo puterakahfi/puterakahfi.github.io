@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'Putera Kahfi',
   siteDescription: 'Web Developer',
-  siteUrl: 'puterakahfi.github.io',
+  siteUrl: 'https://puterakahfi.github.io',
 
   plugins: [
     {
@@ -15,8 +15,8 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Post',
-        baseDir: 'content/posts',
-        path: '*.md',
+        baseDir: 'content/posts/',
+        path: '**/*.md',
         template: '/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
@@ -38,7 +38,8 @@ module.exports = {
       anchorClassName: 'fas fa-link',
       autolinkClassName: 'faddds fa-align-justifys',
       plugins: [
-        '@gridsome/remark-prismjs'
+        '@gridsome/remark-prismjs',
+        'remark-toc'
       ]
     }
   },
