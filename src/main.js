@@ -1,5 +1,5 @@
 // import libraries
-import Buefy from "buefy";
+
 import AOS from "aos";
 import SocialSharing from "vue-social-sharing";
 import VueDisqus from "vue-disqus";
@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 // import css
 import "aos/dist/aos.css";
-import "buefy/dist/buefy.css";
 import "bulma-helpers/css/bulma-helpers.min.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "~/assets/style/index.scss";
@@ -27,9 +26,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);
 
-  Vue.use(Buefy, {
-    defaultIconPack: "fas"
-  });
+
 
   Vue.use(SocialSharing);
   Vue.use(VueDisqus)

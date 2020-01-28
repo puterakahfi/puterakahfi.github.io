@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
+    "gridsome-plugin-tailwindcss": "^2.2.32",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1"
   }

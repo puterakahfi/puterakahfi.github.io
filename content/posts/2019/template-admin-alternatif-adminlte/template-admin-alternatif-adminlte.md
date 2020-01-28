@@ -5,7 +5,6 @@ published: true
 tags: ["Template Admin", "Releases"]
 canonical_url: false
 description: ""
-cover_image: https://pbs.twimg.com/media/Duc2NAVVsAALUhu.jpg
 ---
 
 Bosen nggak sih tiap bikin dashboard pake admin LTE. :) bisa di katakan adminLTE ini adalah template admin sejuta umat. mungkin karena admin LTE bisa dikatakan template admin dengan fitur yang lengkap dan free. namun belakangan sudah banyak alternatif selain admin LTE dan free tentunya.

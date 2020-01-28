@@ -21,8 +21,7 @@
     <p class="subtitle is-7 has-margin-top-10 has-text-grey">
       made with
       <i class="fas fa-heart has-text-danger"></i> with
-      <a href="https://gridsome.org" target="_blank">gridsome</a> and
-      <a href="https://bulma.io/" target="_blank">bulma</a>
+      <a href="https://gridsome.org" target="_blank">gridsome</a>
     </p>
   </section>
 </template>

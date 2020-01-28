@@ -3,7 +3,7 @@
     <div class="columns is-multiline">
       <div class="column is-10">
         <span
-          class="tag is-size-6 is-medium has-text-white has-margin-bottom-10 is-warning has-text-weight-semibold"
+          class="tag is-size-6 is-medium has-margin-bottom-10 has-text-weight-semibold"
         >Posting Terbaru</span>
         <h1 class="title is-3 has-margin-bottom-10">
           <g-link :to="post[0].node.path">{{post[0].node.title}}</g-link>

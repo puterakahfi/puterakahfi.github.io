@@ -1,8 +1,11 @@
 <template>
-  <div id="app">
-    <Navbar class="container has-padding-10 is-shadowless" />
+  <div id="app" class=" w-full max-w-screen-lg relative mx-auto px-6">
+        <div class="header-bar"></div>
 
-    <main class="main">
+    <Navbar class="bg-transparent m-3  mx-auto  " />
+
+
+    <main class>
       <slot />
     </main>
   </div>
@@ -31,32 +34,16 @@ export default {
 </script>
 
 <style lang="scss">
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: var(--header-height);
-  padding: 0 calc(var(--space) / 2);
-  top: 0;
-  z-index: 10;
 
-  &__left,
-  &__right {
-    display: flex;
-    align-items: center;
-  }
 
-  @media screen and (min-width: 1300px) {
-    //Make header sticky for large screens
-    position: sticky;
-    width: 100%;
-  }
+.header-bar {
+    background: linear-gradient(90deg,var(--primary-color),#8ed6fb 50%,#d32e9d);
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
 }
 
-.main {
-  margin: 0 auto;
-  padding: 1.5vw 15px 0;
-}
 
 .footer {
   display: flex;
