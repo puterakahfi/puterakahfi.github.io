@@ -12,7 +12,7 @@
         <PostMeta class="post-card__meta" :post="post[0].node" />
 
         <p class="subtitle is-6 has-margin-top-20">{{post[0].node.description}}</p>
-        <g-link class="button is-outlined" :to="post[0].node.path">selengkapnya</g-link>
+        <g-link class="" :to="post[0].node.path"><button class="bg-transparent hover:bg-grey text-grey-dark font-semibold hover:text-white py-2 px-4 border border-grey hover:border-transparent rounded mr-2">selengkapnya</button></g-link>
       </div>
       <div class="column is-10 mt-20">
         <div class="">
