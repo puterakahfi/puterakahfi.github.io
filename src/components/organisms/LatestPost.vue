@@ -3,22 +3,25 @@
     <div class="columns is-multiline">
       <div class="column is-10">
         <span
-          class="tag is-size-6 is-medium has-margin-bottom-10 has-text-weight-semibold"
+          class="tag is-size-6 is-medium mb-40 has-text-weight-semibold"
         >Posting Terbaru</span>
-        <h1 class="title is-3 has-margin-bottom-10">
+        <h1 class="title is-3 has-margin-bottom-10 mt-2">
           <g-link :to="post[0].node.path">{{post[0].node.title}}</g-link>
         </h1>
 
         <PostMeta class="post-card__meta" :post="post[0].node" />
 
         <p class="subtitle is-6 has-margin-top-20">{{post[0].node.description}}</p>
-        <g-link class="" :to="post[0].node.path"><button class="bg-transparent hover:bg-grey text-grey-dark font-semibold hover:text-white py-2 px-4 border border-grey hover:border-transparent rounded mr-2">selengkapnya</button></g-link>
+
+        <g-link class="" :to="post[0].node.path">
+          <button class="bg-transparent hover:bg-black text-grey-dark font-semibold hover:text-white py-2 px-4 border border-grey hover:border-transparent rounded mr-2">selengkapnya</button>
+          </g-link>
       </div>
       <div class="column is-10 mt-20">
         <div class="">
           <div data-aos="slide-up" class="box" v-for="item in post.slice(1)" :key="item.node.id">
             <article class="media">
-              <div class="media-left">
+              <div class="media-left" v-if="item.node.cover_image">
                 <figure class="image is-128x128">
                   <img :src="item.node.cover_image" alt="Image" />
                 </figure>
@@ -27,7 +30,10 @@
                 <div class="content">
                   <p>
                     <strong class="title is-5 has-text-weight-bold">
+                              <h1 class="title is-3 has-margin-bottom-10 mt-2">
+
                       <g-link :to="item.node.path">{{item.node.title }}</g-link>
+                      </h1>
                     </strong>
                     <PostMeta class="post-card__meta has-margin-top-5" :post="post[0].node" />
                   </p>

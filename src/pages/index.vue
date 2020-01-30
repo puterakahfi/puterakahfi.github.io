@@ -1,12 +1,11 @@
 <template>
   <Layout :show-logo="false" :show-header="false" class="">
     <!-- Author intro -->
-    <div class="columns">
+    <div class="columns" data-aos="fade-up">
       <div class="column is-9">
-        <LatestPost data-aos="fade-down" :post="latestPost" />
+        <LatestPost  :post="latestPost" />
       </div>
 
-              <SmallFooter class="has-margin-top-20 is-marginless" />
 
     </div>
 
