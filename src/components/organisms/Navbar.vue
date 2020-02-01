@@ -1,5 +1,7 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap border-b-2 border-gray-600">
+  <nav
+    class="flex items-center justify-between flex-wrap border-b-2 border-gray-600"
+  >
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <g-link to="/">
         <span class="font-semibold text-xl tracking-tight text-gray-800"
@@ -42,7 +44,12 @@
           >Codeigniter Indonesia</a
         >
 
-        <g-link to="/training" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"> Training Schedule</g-link>
+        <g-link
+          to="/training"
+          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+        >
+          Training</g-link
+        >
       </div>
       <div>
         <a

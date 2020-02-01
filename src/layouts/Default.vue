@@ -1,11 +1,10 @@
 <template>
   <div id="app" class=" w-full max-w-screen-lg relative mx-auto px-6">
-        <div class="header-bar"></div>
+    <div class="header-bar"></div>
 
     <Navbar class="bg-transparent m-3  mx-auto  " />
 
-
-    <main class>
+    <main class="mt-8">
       <slot />
     </main>
   </div>
@@ -34,16 +33,18 @@ export default {
 </script>
 
 <style lang="scss">
-
-
 .header-bar {
-    background: linear-gradient(90deg,var(--primary-color),#8ed6fb 50%,#d32e9d);
-    padding: 5px;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    #8ed6fb 50%,
+    #d32e9d
+  );
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
 }
-
 
 .footer {
   display: flex;

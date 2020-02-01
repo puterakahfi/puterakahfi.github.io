@@ -1,6 +1,6 @@
 <template>
   <Layout :show-logo="false" :show-header="false" class="">
-    <section data-aos="fade-up">
+    <section>
       <h2 class="text-lg">Training Schedule</h2>
 
       <div class="max-w-sm w-full lg:max-w-full lg:flex mb-8">

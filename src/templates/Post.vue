@@ -1,12 +1,15 @@
 <template>
   <Layout>
-    <div class="content" data-aos="fade-up">
+    <div class="content">
       <div class="title text-left container">
+        <h1 class="title is-3 has-margin-bottom-10 text-4xl">
+          {{ $page.post.title }}
+        </h1>
 
-        <h1 class="title is-3 has-margin-bottom-10 text-4xl">{{ $page.post.title }}</h1>
-
-        <PostMeta :post="$page.post" class="subtitle is-6 has-margin-bottom-30 text-lg " />
-
+        <PostMeta
+          :post="$page.post"
+          class="subtitle is-6 has-margin-bottom-30 text-lg "
+        />
       </div>
       <div class="post text-left container">
         <div v-html="$page.post.content" />
@@ -17,14 +20,19 @@
     </div>
     <div class="share"></div>
 
-
-
     <div class="post-comments container">
       {{ $page.post.slug }}
 
-                          <ShareLink class="text-is-center has-margin-bottom-20" :item="$page.post"></ShareLink>
+      <ShareLink
+        class="text-is-center has-margin-bottom-20"
+        :item="$page.post"
+      ></ShareLink>
 
-      <vue-disqus shortname="puterakahfi-1" :identifier="$page.post.slug" :url="$page.post.slug"></vue-disqus>
+      <vue-disqus
+        shortname="puterakahfi-1"
+        :identifier="$page.post.slug"
+        :url="$page.post.slug"
+      ></vue-disqus>
     </div>
   </Layout>
 </template>

@@ -19,7 +19,7 @@
       </div>
       <div class="column is-10 mt-20">
         <div class="">
-          <div data-aos="slide-up" class="box" v-for="item in post.slice(1)" :key="item.node.id">
+          <div class="box" v-for="item in post.slice(1)" :key="item.node.id">
             <article class="media">
               <div class="media-left" v-if="item.node.cover_image">
                 <figure class="image is-128x128">

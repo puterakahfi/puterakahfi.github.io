@@ -1,16 +1,11 @@
 <template>
   <Layout :show-logo="false" :show-header="false" class="">
     <!-- Author intro -->
-    <div class="columns" data-aos="fade-up">
+    <div class="columns">
       <div class="column is-9">
-        <LatestPost  :post="latestPost" />
+        <LatestPost :post="latestPost" />
       </div>
-
-
     </div>
-
-    <!-- List posts -->
-    <div class="columns is-multiline"></div>
   </Layout>
 </template>
 
