@@ -28,6 +28,20 @@
             "level": "Beginner/Intermediate",
             "mentor": "Putera Kahfi",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        },
+        {
+            "title": "JAMSTACK With Gridsome",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkuobLOroVRPFJvsoCRlROdFrA2z-bmp81m-Xt6QR7Ehr5MOtj",
+            "level": "Beginner/Intermediate",
+            "mentor": "Putera Kahfi",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        },
+        {
+            "title": "Clean Architecture With Symfony",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSu8EZR6XXx10CQH0KguQd1SDQ7oJcjlThOHWNhNVzoG0tDpq94",
+            "level": "Beginner/Intermediate",
+            "mentor": "Putera Kahfi",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
         }
     ]
 }

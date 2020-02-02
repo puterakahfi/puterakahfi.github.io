@@ -40,7 +40,7 @@
 
 <page-query>
 query {
-  trainings: allTrainings {
+  trainings: allTrainings (sortBy: "title", order: ASC){
     edges {
       node {
         id
