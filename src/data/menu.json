@@ -1,0 +1,19 @@
+{
+    "title": "Putera Kahfi",
+    "items": [
+        {
+            "title": "Links",
+            "url" :"testing"
+        },
+        {
+            "title": "Links",
+            "items": [
+                {
+                    "title": "codeigniter Indonesia",
+                    "url": "url",
+                    "target": "_blank"
+                }
+            ]
+        }
+    ]
+}

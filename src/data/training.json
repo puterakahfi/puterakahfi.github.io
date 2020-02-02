@@ -1,0 +1,26 @@
+{
+    "title": "Training/Pelatihan",
+    "items": [
+        {
+            "title": "Object Oriented Programming with PHP",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_YD1fqvS0y4Ax6QpuaKucQshaH2icQ-p4fFyKmmWmJmXIjla0",
+            "level": "Beginner/Intermediate",
+            "mentor": "Putera Kahfi",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        },
+        {
+            "title": "Symfony Framework",
+            "image": "https://tailwindcss.com/img/card-top.jpg",
+            "level": "Beginner/Intermediate",
+            "mentor": "Putera Kahfi",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        },
+        {
+            "title": "Vuejs For Beginner",
+            "image": "https://i.pinimg.com/originals/76/fb/1f/76fb1fe1791966ba2a602965f2d06b0b.jpg",
+            "level": "Beginner/Intermediate",
+            "mentor": "Putera Kahfi",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        }
+    ]
+}
