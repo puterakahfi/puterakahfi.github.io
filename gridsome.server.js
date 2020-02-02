@@ -19,7 +19,7 @@ module.exports = function (api) {
       collection.addNode({
         id: item.id,
         title: item.title,
-        trainer: item.trainer,
+        mentor: item.mentor,
         description: item.description,
         image: item.image
       })
