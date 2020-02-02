@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="columns is-multiline">
-      <div class="column is-10">
+      <div class="column is-10 ">
         <span
           class="tag is-size-6 is-medium mb-40 has-text-weight-semibold"
         >Posting Terbaru</span>

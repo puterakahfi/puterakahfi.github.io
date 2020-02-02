@@ -5,6 +5,10 @@ import SocialSharing from "vue-social-sharing";
 import VueDisqus from "vue-disqus";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+
+import Vuex from 'vuex';
+
+
 // import css
 import "aos/dist/aos.css";
 import "bulma-helpers/css/bulma-helpers.min.css";
@@ -15,7 +19,7 @@ import "~/assets/style/index.scss";
 import DefaultLayout from "~/layouts/Default.vue";
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient, appOptions  }) {
 
   head.link.push({
     rel: 'stylesheet',
@@ -30,5 +34,7 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.use(SocialSharing);
   Vue.use(VueDisqus)
+  Vue.use(Vuex);
+
   Vue.prototype.$aos = AOS;
 }
