@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{275:function(e,n,t){"use strict";t.r(n);var s=t(12),i=Object(s.a)({},(function(){var e=this.$createElement;this._self._c;return this._m(0)}),[function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("h1",[this._v("Demo menggunakan Gridsome")])])}],!1,null,null,null);n.default=i.exports}}]);
