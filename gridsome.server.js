@@ -5,8 +5,25 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const training = require('./src/data/training.json');
+
+
 module.exports = function (api) {
-  api.loadSource(store => {
+  api.loadSource(actions => {
     // Use the Data store API here: https://gridsome.org/docs/data-store-api
+    const collection = actions.addCollection({
+      typeName: 'Trainings'
+    })
+
+    for (const item of training.items) {
+      collection.addNode({
+        id: item.id,
+        title: item.title,
+        trainer: item.trainer,
+        description: item.description,
+        image: item.image
+      })
+    }
+
   })
 }
