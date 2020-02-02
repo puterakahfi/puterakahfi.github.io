@@ -45,6 +45,7 @@ query {
       node {
         id
         title
+        mentor
         description
         image
       }
